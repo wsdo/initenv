@@ -14,5 +14,23 @@ init(){
   ## set user
   useradd $0
 }
+
+node(){
+  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+}
+
+stark(){
+  echo 'hi stark'
+}
+
+if $1 == 'node' then
+  node()
+fi
+
+if $1 == 'stark' then
+  stark()
+fi
 #Run it
 init 2>&1 | tee ${cur_dir}/init.log
