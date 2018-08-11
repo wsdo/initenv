@@ -1,1 +1,20 @@
-Error:/Users/stark/item/shell/newenv/include/zsh.sh.sh not found, shell can not be executed.
+install.sh: line 12: apt-get: command not found
+--2018-08-11 18:08:56--  https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+正在解析主机 raw.github.com (raw.github.com)... 151.101.88.133
+正在连接 raw.github.com (raw.github.com)|151.101.88.133|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 301 Moved Permanently
+位置：https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh [跟随至新的 URL]
+--2018-08-11 18:08:57--  https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+正在解析主机 raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.88.133
+正在连接 raw.githubusercontent.com (raw.githubusercontent.com)|151.101.88.133|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 200 OK
+长度：3952 (3.9K) [text/plain]
+正在保存至: “STDOUT”
+
+     0K ...                                                   100% 15.7M=0s
+
+2018-08-11 18:08:58 (15.7 MB/s) - 已写入至标准输出 [3952/3952]
+
+You already have Oh My Zsh installed.
+You'll need to remove /Users/stark/.oh-my-zsh if you want to re-install.
+install.sh: line 16: useradd: command not found
